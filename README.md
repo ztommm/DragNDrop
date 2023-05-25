@@ -1,4 +1,4 @@
-# DragNDrop_2PT_1
+# DragNDrop
 Projekts "Drag N Drop", realizē automašīnu novietošanas spēli. Spēle paredzēta mazāko klašu skolēniem.
 
 ## Darāmo darbu saraksts
