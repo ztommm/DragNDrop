@@ -72,7 +72,44 @@ public class NomesanasVieta : MonoBehaviour,
 								objektuSkripts.skanasKoAtskanot[3]);
 							break;
 
-						default:
+                        case "b2":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[6]);
+                            break;
+                        case "cements":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[12]);
+                            break;
+                        case "e46":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[7]);
+                            break;
+                        case "e61":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[6]);
+                            break;
+                        case "eskavators":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[11]);
+                            break;
+                        case "policija":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[8]);
+                            break;
+                        case "traktors1":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[10]);
+                            break;
+                        case "traktors5":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[11]);
+                            break;
+                        case "ugunsdzeseji":
+                            objektuSkripts.skanasAvots.PlayOneShot(
+                                objektuSkripts.skanasKoAtskanot[13]);
+                            break;
+
+                        default:
 							Debug.Log("Tags nav definēts!");
 							break;
 					}
@@ -102,8 +139,55 @@ public class NomesanasVieta : MonoBehaviour,
                          GetComponent<RectTransform>().localPosition =
                          objektuSkripts.bussKoord;
                         break;
+                 
 
-                    default:
+                    case "b2":
+                        objektuSkripts.b2Masina.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.b2Koord;
+                        break;
+                    case "cements":
+                        objektuSkripts.CementaMasina.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.cementaKoord;
+                        break;
+                    case "e46":
+                        objektuSkripts.e46Masina.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.e46Koord;
+                        break;
+                    case "e61":
+                        objektuSkripts.e61Masina.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.e61Koord;
+                        break;
+                    case "eskavators":
+                        objektuSkripts.Eskavators.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.eskavatoraKoord;
+                        break;
+                    case "policija":
+                        objektuSkripts.policijasMasina.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.policijasKoord;
+                        break;
+                    case "traktors1":
+                        objektuSkripts.Traktors1.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.traktora1Koord;
+                        break;
+                    case "traktors5":
+                        objektuSkripts.Traktors5.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.traktora6Koord;
+                        break;
+                    case "ugunsdzeseji":
+                        objektuSkripts.UgunsDzeseji.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.ugunsdzKoord;
+                        break;
+
+                    default: 
                         Debug.Log("Tags nav definēts!");
                         break;
                 }
