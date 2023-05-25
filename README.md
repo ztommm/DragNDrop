@@ -1,12 +1,12 @@
-# DragNDrop
-Projekts demonstrē drag and drop funkcionalitāti. Spēles mērķis ir pēc iespējas īsākā laika periodā pareizajās vietās (izmērā, rotācijā) novietot transportlīdzekļus.
+# DragNDrop_2PT_1
+Projekts "Drag N Drop", realizē automašīnu novietošanas spēli. Spēle paredzēta mazāko klašu skolēniem.
 
-## Veicamo darbu saraksts:
-- [x] Iespēja parvietot transportlīdzekļa objektus
+## Darāmo darbu saraksts
+- [x] Iespēja pārvietot automašīnu objektus
 - [x] Iespēja objektu novietot brīvā vietā uz kartes
-- [x] Iespeja objektu novietot uz nepareizā laukuma
-- [x] Iespeja objektu novietot uz pareizā laukuma
-- [ ] Skaņas effekti
-- [ ] Iespeja rotet objektu ap Z asi
-- [ ] Iespeja mainit objekta izmeru X asi
-- [ ] Iespeja mainit objekta izmeru Y asi
+- [x] Iespēja objektu novietot uz nepareizā laukuma
+- [x] Iespēja objektu novietot uz pareizā laukuma
+- [x] Iespēja rotēt objektu pulksteņrādītāja un pretējā virzienā
+- [x] Iespēja mainīt objekta izmēru pa x asi
+- [x] Iespēja mainīt objekta izmēru pa y asi
+- [ ] Skaņas efekti

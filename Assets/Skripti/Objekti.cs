@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Objekti : MonoBehaviour {
-	public GameObject AtkritumuMasina;
-    public GameObject AtraPalidziba;
-    public GameObject Autobuss;
+	public GameObject atkritumuMasina;
+	public GameObject atraPalidziba;
+	public GameObject autobuss;
 
 	[HideInInspector]
 	public Vector2 atkrMKoord;
@@ -15,18 +15,24 @@ public class Objekti : MonoBehaviour {
 	public Vector2 bussKoord;
 
 	public Canvas kanva;
+
 	public AudioSource skanasAvots;
 	public AudioClip[] skanasKoAtskanot;
 
 	[HideInInspector]
 	public bool vaiIstajaVieta = false;
 
-	public GameObject PedejaisVilktais = null;
+	public GameObject pedejaisVilktais = null;
 
-    void Start () {
-		atkrMKoord= AtkritumuMasina.GetComponent<RectTransform>().localPosition;
-        atrPKoord = AtraPalidziba.GetComponent<RectTransform>().localPosition;
-        bussKoord = Autobuss.GetComponent<RectTransform>().localPosition;
+
+	void Start() {
+		atkrMKoord =
+        atkritumuMasina.GetComponent<RectTransform>().localPosition;
+        
+		atrPKoord =
+        atraPalidziba.GetComponent<RectTransform>().localPosition;
+
+        bussKoord =
+		autobuss.GetComponent<RectTransform>().localPosition;
     }
-	
 }
