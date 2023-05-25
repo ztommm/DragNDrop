@@ -4,8 +4,8 @@ Projekts demonstrē drag and drop funkcionalitāti. Spēles mērķis ir pēc ies
 ## Veicamo darbu saraksts:
 - [x] Iespēja parvietot transportlīdzekļa objektus
 - [x] Iespēja objektu novietot brīvā vietā uz kartes
-- [ ] Iespeja objektu novietot uz nepareizā laukuma
-- [ ] Iespeja objektu novietot uz pareizā laukuma
+- [x] Iespeja objektu novietot uz nepareizā laukuma
+- [x] Iespeja objektu novietot uz pareizā laukuma
 - [ ] Skaņas effekti
 - [ ] Iespeja rotet objektu ap Z asi
 - [ ] Iespeja mainit objekta izmeru X asi
