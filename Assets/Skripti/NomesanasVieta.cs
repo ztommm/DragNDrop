@@ -151,7 +151,7 @@ public class NomesanasVieta : MonoBehaviour,
 					}
                     
 
-                    if (objektuSkripts.PareizasMasinas == 1)
+                    if (objektuSkripts.PareizasMasinas == 12)
                     {
                         Time.timeScale = 0;
                         objektuSkripts.UzvarasEkrans.SetActive(true);

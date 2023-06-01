@@ -22,7 +22,7 @@ public class Timers : MonoBehaviour {
 
 	public void Parbaude()
 	{
-		if (objektuSkripts.PareizasMasinas == 1)
+		if (objektuSkripts.PareizasMasinas == 12)
 		{
 			if (time <= 120)
 			{
