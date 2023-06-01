@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Uzvara : MonoBehaviour {
+public class AtteluParadisana : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

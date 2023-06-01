@@ -12,19 +12,19 @@ public class ObjektuTransformacijas : MonoBehaviour {
 			if (Input.GetKey(KeyCode.Z))
 			{
 				objektuSkripts.pedejaisVilktais.
-				GetComponent<RectTransform>().Rotate(0, 0, Time.deltaTime * 9f);
+				GetComponent<RectTransform>().Rotate(0, 0, Time.deltaTime * 15f);
 			}
 
 			if (Input.GetKey(KeyCode.X))
 			{
 				objektuSkripts.pedejaisVilktais.
-				GetComponent<RectTransform>().Rotate(0, 0, -Time.deltaTime * 9f);
+				GetComponent<RectTransform>().Rotate(0, 0, -Time.deltaTime * 15f);
 			}
 
 			if (Input.GetKey(KeyCode.UpArrow))
 			{
 				if (objektuSkripts.pedejaisVilktais.
-					GetComponent<RectTransform>().transform.localScale.y <= 0.8f)
+					GetComponent<RectTransform>().transform.localScale.y <= 1.5f)
 				{
 					objektuSkripts.pedejaisVilktais.
 						GetComponent<RectTransform>().transform.localScale =
@@ -67,7 +67,7 @@ public class ObjektuTransformacijas : MonoBehaviour {
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 if (objektuSkripts.pedejaisVilktais.
-                    GetComponent<RectTransform>().transform.localScale.x <= 0.8f)
+                    GetComponent<RectTransform>().transform.localScale.x <= 1.5f)
                 {
                     objektuSkripts.pedejaisVilktais.
                         GetComponent<RectTransform>().transform.localScale =

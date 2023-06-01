@@ -9,4 +9,8 @@ Projekts "Drag N Drop", realizē automašīnu novietošanas spēli. Spēle pared
 - [x] Iespēja rotēt objektu pulksteņrādītāja un pretējā virzienā
 - [x] Iespēja mainīt objekta izmēru pa x asi
 - [x] Iespēja mainīt objekta izmēru pa y asi
-- [ ] Skaņas efekti
+- [x] Skaņas efekti
+- [x] Laiku skaitītājs
+- [x] 12 Mašīnas
+- [x] Zvaigznes / Cik labi spēlēji
+- [ ] Otro ainu, kur ir izvēle apturēt spēli, apskatīt instrukcijas vai iesākt spēli.

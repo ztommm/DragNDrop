@@ -6,7 +6,6 @@ public class Objekti : MonoBehaviour {
 	public GameObject atkritumuMasina;
 	public GameObject atraPalidziba;
 	public GameObject autobuss;
-
 	public GameObject b2Masina;
 	public GameObject CementaMasina;
 	public GameObject e46Masina;
@@ -16,6 +15,10 @@ public class Objekti : MonoBehaviour {
 	public GameObject Traktors1;
 	public GameObject Traktors5;
 	public GameObject UgunsDzeseji;
+    public GameObject UzvarasEkrans;
+    public GameObject Zvaigzne1;
+    public GameObject Zvaigzne2;
+    public GameObject Zvaigzne3;
 
 	[HideInInspector]
 	public Vector2 atkrMKoord;
@@ -23,7 +26,8 @@ public class Objekti : MonoBehaviour {
 	public Vector2 atrPKoord;
 	[HideInInspector]
 	public Vector2 bussKoord;
-
+    [HideInInspector]
+    public int PareizasMasinas;
     [HideInInspector]
     public Vector2 b2Koord;
     [HideInInspector]
@@ -52,6 +56,7 @@ public class Objekti : MonoBehaviour {
 
 	public GameObject pedejaisVilktais = null;
 
+    
 
 	void Start() {
 		atkrMKoord =
@@ -88,7 +93,7 @@ public class Objekti : MonoBehaviour {
         Traktors5.GetComponent<RectTransform>().localPosition;
 
         ugunsdzKoord =
-        UgunsDzeseji.GetComponent<RectTransform>().localPosition;
-
+        UgunsDzeseji.GetComponent<RectTransform>().localPosition;   
     }
+    
 }
