@@ -13,4 +13,4 @@ Projekts "Drag N Drop", realizē automašīnu novietošanas spēli. Spēle pared
 - [x] Laiku skaitītājs
 - [x] 12 Mašīnas
 - [x] Zvaigznes / Cik labi spēlēji
-- [ ] Otro ainu, kur ir izvēle apturēt spēli, apskatīt instrukcijas vai iesākt spēli.
+- [x] Otro ainu, kur ir izvēle apturēt spēli, apskatīt instrukcijas vai iesākt spēli.

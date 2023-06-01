@@ -11,11 +11,11 @@ public class AinuParsledzejs : MonoBehaviour
         SceneManager.LoadScene(0, LoadSceneMode.Single);
         Time.timeScale = 1;
     }
-
    
 
     public void Apturet()
     {
+        Application.Quit();
         Time.timeScale = 0;
     }
 

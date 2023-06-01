@@ -7,6 +7,7 @@ public class Timers : MonoBehaviour {
 	public Text textSeconds;
 	public float time;
     public Objekti objektuSkripts;
+
     public enum TimerFormats
 	{
 		Pilns,
@@ -20,6 +21,8 @@ public class Timers : MonoBehaviour {
     public TimerFormats format;
     private Dictionary<TimerFormats, string> timeFormats = new Dictionary<TimerFormats, string>();
 
+	private float previousTime;
+	private bool updateTimer;
 	public void Parbaude()
 	{
 		if (objektuSkripts.PareizasMasinas == 12)
@@ -55,9 +58,21 @@ public class Timers : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		time += Time.deltaTime; //
-		textSeconds.text = time.ToString();
-		SetTimerText();
-		Parbaude();
+		if(time - previousTime >= 0.01f)
+		{
+			previousTime = time;
+			updateTimer = true;
+		}
+		else
+		{
+			updateTimer = false;
+		}
+
+		if (updateTimer)
+		{
+			SetTimerText();
+			Parbaude();
+		}
 	}
 
 

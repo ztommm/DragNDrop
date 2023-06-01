@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ainas/PilsetasKarte.unity
+- path: Assets/Ainas/Sakums.unity
   isLoaded: 1
   isActive: 1
